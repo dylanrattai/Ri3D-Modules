@@ -49,7 +49,7 @@ public class GenericJointSubsystem extends SubsystemBase
     private TalonFX jointMotor;
     private TalonFXConfiguration jointMotorConfig;
     private CANcoder jointEncoder;
-    private final MotionMagicVoltage mRequest;
+    private MotionMagicVoltage mRequest;
     private double lastSetRotation = 0;
 
     public GenericJointSubsystem()
